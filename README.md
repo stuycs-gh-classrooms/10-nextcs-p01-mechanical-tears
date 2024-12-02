@@ -15,30 +15,42 @@ This project will be completed in phases. The first phase will be to work on thi
 
 ## Phase 0: Selection, Analysis & Plan
 
-#### Selected Project: CHOOSE WISELY
+#### Selected Project: SPACE INVADERS
 
 ### Necessary Features
 What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
 
-YOUR ANSWERS HERE
-
+- battle ship needs to move left and right
+- battle ship needs tp shoot
+- needs to be protection/shields
+- aliens must shoot
+- different aliens have different health levels
+- different aliens must look different
+- scoreboard
+- lives left
+  
 ### Extra Features
-What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
 
-YOUR ANSWERS HERE
+- battle ship should move up and down
+- BOSSES EVER 5 ROUNDS
+- ability to revive
+- never ending game
+- aliens keep moving toward player, if touched, ded.
+- lives reset after each boss round
+- clearly dictate boss (red)
 
 ### Array Usage
 How will you be using arrays in this project?
 
 1D Array:
-- YOUR ANSER HERE
+- shields are in a line
 
 2D Array:
-- YOUR ANSWER HERE
+- the bosses wil be in a grid
 
 
 ### Controls
-How will your program be controlled? List all keyboard commands and mouse interactions.
+-
 
 Keyboard Commands:
 - LIST OF COMMANDS HERE
