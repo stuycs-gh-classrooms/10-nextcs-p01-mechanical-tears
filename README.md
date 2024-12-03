@@ -107,6 +107,7 @@ What classes will you be creating for this project? Include the instance variabl
   int size; //size of boss
   PVector position; //Will store X,Y coords of the boss
 - METHODS
+  
   **display()**
   - shows boss
  
