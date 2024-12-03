@@ -32,7 +32,7 @@ What are the core features that your program should have? These should be things
 ### Extra Features
 
 - battle ship should move up and down
-- BOSSES EVER 5 ROUNDS
+- BOSSES EVERY 5 ROUNDS
 - ability to revive
 - never ending game
 - aliens keep moving toward player, if touched, ded.
@@ -46,31 +46,72 @@ How will you be using arrays in this project?
 - shields are in a line
 
 2D Array:
-- the bosses wil be in a grid
+- the bosses/aliens will be in a grid
 
 
 ### Controls
--
-
 Keyboard Commands:
-- LIST OF COMMANDS HERE
-
-Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- WASD: Moves the player battleship
+- UP/DOWN/LEFT/RIGHT: Also moves player battleship
+- Spacebar: Shoots lasers from the battleship
+- R: Restarts game
+Mouse Controls:
+- Clicking/Mouse pressed: Pauses game/stops movement/Starts game
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
 
-CLASS NAME0
+PLAYERS
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  int size; size of boss
+  PVector position; //Will be x,y coords of the player battleship
 - METHODS
-  - LIST METHODS HERE
+  display()
+  - display will show the player on the screen
+    
+  PLAYERS
+  - constructor that sets position to the bottom of the screen
+  
+  
 
-CLASS NAME1
+
+ALIENS
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  int size; size of boss
+  ALIENS[][] position; //Each item in the 2D array will be position of the aliens
 - METHODS
-  - LIST METHODS HERE
+  display()
+  - shows aliens
+    
+  ALIENS
+  - constructor which sets size of 2D array position
+    
+  addAliens()
+  - this will put "aliens" (PVectors) into each item
+  - for loops and variables x,y will be used
+    
+ boolean collisionCheck
+  - will see if a projectile collides with the alien(s)
+ movement
+ - aliens move in a pattern
+
+ 
+
+ 
+BOSSES
+- Instance variables:
+  int size; //size of boss
+  PVector position; //Will store X,Y coords of the boss
+- METHODS
+  display()
+  - shows boss
+  BOSSES
+  - constructor which will set position to the top of the screen
+    
+  boolean collisionCheck
+  - will see if a projectile collides with the boss(s)
+
+  movement()
+  - makes the boss move.
+  - The boss will never go up. It will continue to move down until it touches the player(instant death).
