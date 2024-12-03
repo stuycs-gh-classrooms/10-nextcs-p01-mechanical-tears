@@ -72,6 +72,7 @@ What classes will you be creating for this project? Include the instance variabl
   **display()**
   - display will show the player on the screen
   - player will be deep blue
+    
   **PLAYERS**
   - constructor that sets position to the bottom of the screen
   - sets color c = #2A4B5A (deep sea blue)
@@ -123,6 +124,7 @@ What classes will you be creating for this project? Include the instance variabl
   **BOSSES**
   - constructor which will set position to the top of the screen
   - set color c = #FF1818 (neon red)
+    
   **boolean collisionCheck**
   - will see if a projectile collides with the boss(s)
 
@@ -136,6 +138,7 @@ What classes will you be creating for this project? Include the instance variabl
   int size; //size of shield
   PVector position; //Will store X,Y coords of the shields
   color c;
+  
 - METHODS
 
     **SHIELDS**
