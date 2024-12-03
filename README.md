@@ -62,57 +62,57 @@ Mouse Controls:
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
 
-PLAYERS
+**PLAYERS**
 - Instance variables:
   int size; size of boss
   PVector position; //Will be x,y coords of the player battleship
 - METHODS
-  display()
+  **display()**
   - display will show the player on the screen
     
-  PLAYERS
+  **PLAYERS**
   - constructor that sets position to the bottom of the screen
   
   
 
 
-ALIENS
+**ALIENS**
 - Instance variables:
   int size; size of boss
   ALIENS[][] position; //Each item in the 2D array will be position of the aliens
 - METHODS
-  display()
+  **display()**
   - shows aliens
     
-  ALIENS
+  **ALIENS**
   - constructor which sets size of 2D array position
     
-  addAliens()
+  **addAliens()**
   - this will put "aliens" (PVectors) into each item
   - for loops and variables x,y will be used
     
-   boolean collisionCheck
+  **boolean collisionCheck**
     - will see if a projectile collides with the alien(s)
       
-   movement
+  **movement**
    - aliens move in a pattern
 
  
 
  
-BOSSES
+**BOSSES**
 - Instance variables:
   int size; //size of boss
   PVector position; //Will store X,Y coords of the boss
 - METHODS
-  display()
+  **display()**
   - shows boss
-  BOSSES
+  **BOSSES**
   - constructor which will set position to the top of the screen
     
-  boolean collisionCheck
+  **boolean collisionCheck**
   - will see if a projectile collides with the boss(s)
 
-  movement()
+  **movement()**
   - makes the boss move.
   - The boss will never go up. It will continue to move down until it touches the player(instant death).
