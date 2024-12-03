@@ -67,6 +67,7 @@ What classes will you be creating for this project? Include the instance variabl
   int size; size of boss
   PVector position; //Will be x,y coords of the player battleship
 - METHODS
+  
   **display()**
   - display will show the player on the screen
     
@@ -81,6 +82,7 @@ What classes will you be creating for this project? Include the instance variabl
   int size; size of boss
   ALIENS[][] position; //Each item in the 2D array will be position of the aliens
 - METHODS
+  
   **display()**
   - shows aliens
     
@@ -107,6 +109,7 @@ What classes will you be creating for this project? Include the instance variabl
 - METHODS
   **display()**
   - shows boss
+ 
   **BOSSES**
   - constructor which will set position to the top of the screen
     
