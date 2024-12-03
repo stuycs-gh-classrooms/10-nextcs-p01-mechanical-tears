@@ -91,10 +91,11 @@ ALIENS
   - this will put "aliens" (PVectors) into each item
   - for loops and variables x,y will be used
     
- boolean collisionCheck
-  - will see if a projectile collides with the alien(s)
- movement
- - aliens move in a pattern
+   boolean collisionCheck
+    - will see if a projectile collides with the alien(s)
+      
+   movement
+   - aliens move in a pattern
 
  
 
