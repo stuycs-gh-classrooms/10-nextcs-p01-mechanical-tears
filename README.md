@@ -108,6 +108,9 @@ What classes will you be creating for this project? Include the instance variabl
   PVector position; //Will store X,Y coords of the boss
 - METHODS
   
+  **Health**
+  - how many hits left needed in order to defeat boss (not shown)
+  
   **display()**
   - shows boss
  
@@ -120,3 +123,20 @@ What classes will you be creating for this project? Include the instance variabl
   **movement()**
   - makes the boss move.
   - The boss will never go up. It will continue to move down until it touches the player(instant death).
+
+
+**SHIELDS**
+- Instance variables:
+  int size; //size of shield
+  PVector position; //Will store X,Y coords of the shields
+- METHODS
+    **display()**
+    - show shields
+      
+    **boolean collisionCheck**
+    - will see if a projectile collides with the sheild(s)
+ 
+   **shieldHealth**
+  - check where projectile has hit and sets section to null.
+ 
+    
