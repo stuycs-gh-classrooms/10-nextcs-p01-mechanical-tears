@@ -66,14 +66,15 @@ What classes will you be creating for this project? Include the instance variabl
 - Instance variables:
   int size; size of boss
   PVector position; //Will be x,y coords of the player battleship
+  color c;
 - METHODS
   
   **display()**
   - display will show the player on the screen
-    
+  - player will be deep blue
   **PLAYERS**
   - constructor that sets position to the bottom of the screen
-  
+  - sets color c = #2A4B5A (deep sea blue)
   
 
 
@@ -81,14 +82,17 @@ What classes will you be creating for this project? Include the instance variabl
 - Instance variables:
   int size; size of boss
   ALIENS[][] position; //Each item in the 2D array will be position of the aliens
+  color c;
 - METHODS
   
   **display()**
   - shows aliens
+  - fill(c); // to make aliens neon green
     
   **ALIENS**
   - constructor which sets size of 2D array position
-    
+  - sets color c = #00FF00; //neon green
+
   **addAliens()**
   - this will put "aliens" (PVectors) into each item
   - for loops and variables x,y will be used
@@ -106,6 +110,7 @@ What classes will you be creating for this project? Include the instance variabl
 - Instance variables:
   int size; //size of boss
   PVector position; //Will store X,Y coords of the boss
+  color c;
 - METHODS
   
   **Health**
@@ -113,10 +118,11 @@ What classes will you be creating for this project? Include the instance variabl
   
   **display()**
   - shows boss
- 
+  - bosses 
+   
   **BOSSES**
   - constructor which will set position to the top of the screen
-    
+  - set color c = #FF1818 (neon red)
   **boolean collisionCheck**
   - will see if a projectile collides with the boss(s)
 
@@ -129,10 +135,17 @@ What classes will you be creating for this project? Include the instance variabl
 - Instance variables:
   int size; //size of shield
   PVector position; //Will store X,Y coords of the shields
+  color c;
 - METHODS
+
+    **SHIELDS**
+    - constructor
+    - set color c = 255; //WHite
+
     **display()**
     - show shields
-      
+    - shields are white
+  
     **boolean collisionCheck**
     - will see if a projectile collides with the sheild(s)
  
