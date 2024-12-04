@@ -24,10 +24,18 @@ What are the core features that your program should have? These should be things
 - battle ship needs tp shoot
 - needs to be protection/shields
 - aliens must shoot
-- different aliens have different health levels
-- different aliens must look different
+- different aliens have different health levels (use an 'if' statement)
+  '''
+  if (alien.type == 2) {
+      health = 4
+  }
+
+  '''
+- different aliens must look different (use of images)
+   ![logo here](https://icon2.cleanpng.com/20180409/shq/avb87zlyg.webp)
 - scoreboard
 - lives left
+- the round continues until there are no more aliens on the screen (use a 'while' loop)
   
 ### Extra Features
 
@@ -56,7 +64,8 @@ Keyboard Commands:
 - Spacebar: Shoots lasers from the battleship
 - R: Restarts game
 Mouse Controls:
-- Clicking/Mouse pressed: Pauses game/stops movement/Starts game
+- mousePressed @ pause button: pauses the game
+- if paused, mousePressed @ continue button: starts the game where left off
 
 
 ### Classes
@@ -89,7 +98,10 @@ What classes will you be creating for this project? Include the instance variabl
   **display()**
   - shows aliens
   - fill(c); // to make aliens neon green
-    
+ 
+  **Health**
+  - how many hits needed in order to defeat alien (not shown)
+   
   **ALIENS**
   - constructor which sets size of 2D array position
   - sets color c = #00FF00; //neon green
@@ -104,7 +116,8 @@ What classes will you be creating for this project? Include the instance variabl
   **movement**
    - aliens move in a pattern
 
- 
+ DEBUGGING
+ - printLn the # of aliens left before round is defeated
 
  
 **BOSSES**
