@@ -18,8 +18,6 @@ This project will be completed in phases. The first phase will be to work on thi
 #### Selected Project: SPACE INVADERS
 
 ### Necessary Features
-What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
-
 - battle ship needs to move left and right
 - battle ship needs tp shoot
 - needs to be protection/shields
@@ -50,8 +48,6 @@ What are the core features that your program should have? These should be things
 - clearly dictate boss (red)
 
 ### Array Usage
-How will you be using arrays in this project?
-
 1D Array:
 - shields are in a line
 
@@ -71,8 +67,6 @@ Mouse Controls:
 
 
 ### Classes
-What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
-
 **PLAYERS**
 - Instance variables:
   
