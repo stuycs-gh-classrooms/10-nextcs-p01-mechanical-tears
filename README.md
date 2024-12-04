@@ -164,8 +164,11 @@ What classes will you be creating for this project? Include the instance variabl
 
 **SHIELDS**
 - Instance variables:
+  
   int size; //size of shield
+  
   PVector position; //Will store X,Y coords of the shields
+  
   color c;
   
 - METHODS
