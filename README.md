@@ -159,7 +159,7 @@ What classes will you be creating for this project? Include the instance variabl
 
   **movement()**
   - makes the boss move.
-  - The boss will never go up. It will continue to move down until it touches the player(instant death).
+  - The boss will never move up. It will continue to move down until it touches the player(instant death).
 
 
 **SHIELDS**
@@ -175,7 +175,7 @@ What classes will you be creating for this project? Include the instance variabl
 
     **SHIELDS**
     - constructor
-    - set color c = 255; //WHite
+    - set color c = 255; //White
 
     **display()**
     - show shields
@@ -185,6 +185,6 @@ What classes will you be creating for this project? Include the instance variabl
     - will see if a projectile collides with the sheild(s)
  
    **shieldHealth**
-  - check where projectile has hit and sets section to null.
+  - check where projectile has hit and sets object(s) to null.
  
     
