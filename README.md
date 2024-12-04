@@ -25,12 +25,12 @@ What are the core features that your program should have? These should be things
 - needs to be protection/shields
 - aliens must shoot
 - different aliens have different health levels (use an 'if' statement)
-  '''
+  ```
   if (alien.type == 2) {
       health = 4
   }
 
-  '''
+  ```
 - different aliens must look different (use of images)
 
   
