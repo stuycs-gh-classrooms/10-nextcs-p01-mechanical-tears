@@ -32,7 +32,9 @@ What are the core features that your program should have? These should be things
 
   '''
 - different aliens must look different (use of images)
-   ![logo here](https://icon2.cleanpng.com/20180409/shq/avb87zlyg.webp)
+
+  
+   ![logo here](https://www.pngall.com/wp-content/uploads/13/Space-Invaders-Alien-PNG-Image.png)
 - scoreboard
 - lives left
 - the round continues until there are no more aliens on the screen (use a 'while' loop)
