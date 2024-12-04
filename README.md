@@ -75,9 +75,13 @@ What classes will you be creating for this project? Include the instance variabl
 
 **PLAYERS**
 - Instance variables:
+  
   int size; size of boss
+  
   PVector position; //Will be x,y coords of the player battleship
+  
   color c;
+  
 - METHODS
   
   **display()**
@@ -91,10 +95,15 @@ What classes will you be creating for this project? Include the instance variabl
 
 
 **ALIENS**
+
 - Instance variables:
+  
   int size; size of boss
+  
   ALIENS[][] position; //Each item in the 2D array will be position of the aliens
+  
   color c;
+  
 - METHODS
   
   **display()**
@@ -123,10 +132,15 @@ What classes will you be creating for this project? Include the instance variabl
 
  
 **BOSSES**
+
 - Instance variables:
+  
   int size; //size of boss
+  
   PVector position; //Will store X,Y coords of the boss
+  
   color c;
+  
 - METHODS
   
   **Health**
