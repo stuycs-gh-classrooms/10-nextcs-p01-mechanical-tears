@@ -182,7 +182,7 @@ What classes will you be creating for this project? Include the instance variabl
     - shields are white
   
     **boolean collisionCheck**
-    - will see if a projectile collides with the sheild(s)
+    - will see if a projectile collides with the shield(s)
  
    **shieldHealth**
   - check where projectile has hit and sets object(s) to null.
