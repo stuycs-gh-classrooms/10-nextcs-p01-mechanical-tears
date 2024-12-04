@@ -24,7 +24,7 @@ What are the core features that your program should have? These should be things
 - battle ship needs tp shoot
 - needs to be protection/shields
 - aliens must shoot
-- different aliens have different health levels (use an 'if' statement)
+- different aliens have different health levels (use an `if` statement)
   ```
   if (alien.type == 2) {
       health = 4
@@ -37,7 +37,7 @@ What are the core features that your program should have? These should be things
    ![logo here](https://www.pngall.com/wp-content/uploads/13/Space-Invaders-Alien-PNG-Image.png)
 - scoreboard
 - lives left
-- the round continues until there are no more aliens on the screen (use a 'while' loop)
+- the round continues until there are no more aliens on the screen (use a `while` loop)
   
 ### Extra Features
 
