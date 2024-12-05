@@ -23,4 +23,8 @@ Power-Ups:
   - Damage, Movement speed, projectile speed/firerate
 
 As waves increase the aliens get more hp or become faster?
+
+Aliens:
+- depending on the hits left needed to defeat an alien, the alien will be different colors
+  - ex. if a 3-hit alien was already hit twice, it would be the same color as a 1-hit alien
 ```
