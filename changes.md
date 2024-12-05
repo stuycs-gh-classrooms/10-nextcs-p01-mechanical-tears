@@ -27,4 +27,14 @@ As waves increase the aliens get more hp or become faster?
 Aliens:
 - depending on the hits left needed to defeat an alien, the alien will be different colors
   - ex. if a 3-hit alien was already hit twice, it would be the same color as a 1-hit alien
+
+SPECIAL SPECIAL FEATURES(Original Idea by US!!!!):
+- Inspired by bullet hell games we were thinking of making lasers that cover the map (https://www.youtube.com/watch?v=OspSOSPjOuI ) (timestamp 1:53)
+- Like in the video there will be a warning indictator telling the player to move before the actual projectile spawns in
+- Prevents camping and makes the game funner
+- This requires another class and more time so we might only do this if we have enough time left over
+- Class will be called worldEvents
+
+- Another thing we will 100% add is music
+
 ```
