@@ -1,3 +1,5 @@
+```
+
 Projectiles class(we forgot)
 Program speed(60 fps)
 Projectiles Types:
@@ -15,4 +17,10 @@ Customize aliens and players
 
 Difficulty(Maybe)
 - Ours will already get harder the more you kill
-- 
+
+Power-Ups:
+- orbs(or any other shape) will fall down. Player picks them up and gains a random and temporary boost
+  - Damage, Movement speed, projectile speed/firerate
+
+As waves increase the aliens get more hp or become faster?
+```
