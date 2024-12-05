@@ -1,11 +1,15 @@
+Aliens a; //aliens
+int r; //# of rows
+int c; //# of cols
+int size;
 
 
 void setup(){
-  size(300,400);
+  size(700,1000);
   background(0);
-  aliens.display();
-  player.display();
-  shields.display();
+  r = 3;
+  c = 5;
+  size = 0; //0 for now
 }
 
 
@@ -14,6 +18,6 @@ void draw(){
 
 void keyPressed(){
   if (keyCode == LEFT || key == 'a'){
-    player.x -= ;
+   // player.x -= ;
   }
 }
