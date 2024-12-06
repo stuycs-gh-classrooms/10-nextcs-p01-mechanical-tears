@@ -14,6 +14,7 @@ void setup(){
 
 
 void draw(){
+  
 }
 
 void keyPressed(){
@@ -29,4 +30,4 @@ void keyPressed(){
    if (keyCode == DOWN || key == 's'){ // move down
    // player.y -= ;
   }
-  }
+}
