@@ -17,7 +17,16 @@ void draw(){
 }
 
 void keyPressed(){
-  if (keyCode == LEFT || key == 'a'){
+  if (keyCode == LEFT || key == 'a'){ // move left
    // player.x -= ;
   }
-}
+  if (keyCode == RIGHT || key == 'd'){ // move right
+   // player.x += ;
+  }
+    if (keyCode == UP || key == 'w'){ // move up
+   // player.y += ;
+  }
+   if (keyCode == DOWN || key == 's'){ // move down
+   // player.y -= ;
+  }
+  }
