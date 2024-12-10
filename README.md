@@ -86,8 +86,17 @@ Mouse Controls:
   - constructor that sets position to the bottom of the screen
   - sets color c = #2A4B5A (deep sea blue)
   
-
-
+**PROJECTILE**
+ - Instance Variables:
+   int size
+   color c
+   int speed
+   PVector position
+   
+- METHODS
+  **boolean collisionCheck**
+  -checks if projectile is touching anything (shield, alien, player, boss)
+  
 **ALIENS**
 
 - Instance variables:
