@@ -22,5 +22,7 @@ class Player{
      <= (this.size/2 + other.size/2) );
     }//collisionCheck()
     
-}    
+}  
+
+  
     
