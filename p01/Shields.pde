@@ -18,7 +18,7 @@ void display(){
 }//display
 
 void makeShield() {
-int x = 100;
+int x = 0;
 int y = 100;
 for(int i = 0; i < s.length ; i++) {
   s[i] = new PVector(x,y);

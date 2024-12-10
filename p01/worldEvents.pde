@@ -3,7 +3,7 @@
 
 void warning() { 
   strokeWeight(5);
-
+ // line(x, height, x, 0);
 
 
 }//lasers
@@ -21,10 +21,10 @@ void lasers() { //lasers that cover the screen
 
 
 void worldEvents() {
-if (frameCount % 60) {
+if (frameCount % 60 == 0) {
     warning(); }
 
-if (frameCount % 300) {
+if (frameCount % 300 == 0) {
     lasers(); }
 
 

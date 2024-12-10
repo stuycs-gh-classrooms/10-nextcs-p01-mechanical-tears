@@ -2,6 +2,7 @@ Aliens a; //aliens
 int r; //# of rows
 int c; //# of cols
 int size;
+Shield B;
 
 
 void setup(){
@@ -10,11 +11,12 @@ void setup(){
   r = 3;
   c = 5;
   size = 0; //0 for now
+  B = new Shield();
 }
 
 
 void draw(){
-  
+  B.display();
 }
 
 void keyPressed(){
