@@ -10,7 +10,7 @@ void warning() {
 
 void lasers() { //lasers that cover the screen
    //Width will rapidly increase and then decrease
-  strokeWidth(width); 
+  strokeWeight(width); 
   for(int width = 1; width < 20; width++ ) {
 
   

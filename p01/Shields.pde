@@ -1,26 +1,23 @@
 class Shield {
 int size;
-int[] s;
+Shield[] s;
 color c;
+PVector pos;
+
+Shield() {
+  size = width/8;
+  c = 255; //white
+  s = new Shield[4];
+  pos = new PVector(100, height - 100);
+}//Constructor
+
 
 void display(){
-  s = new Shield[4];
+   for(int w = 0; w < s.length; w++ ) {
+     circle(s[w].x, s[w].y, size);
+   }
+}//display
 
+void makeShield() { }
 
-
-
-
-
-
-}
-
-void shieldSetup(int[] s){
-  int shieldSize = (width/ 8);
-  
-  int y = height - 20;
-  int x = 0;
-    for(int r = 0; r < s.length; r = r + 2){
-      circle(x+(shieldSize*r),y,40);    
-    }
-
-}
+}//End of Class
