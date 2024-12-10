@@ -2,7 +2,7 @@
 
 
 void warning() { 
-  strokeWidth(5);
+  strokeWeight(5);
 
 
 

@@ -40,12 +40,12 @@ void displayAliens() {
   }//for
 } //displayAliens
  
-/*
-boolean collisionCheck(Ball other) {
-    return ( this.center.dist(other.center)
-             <= (this.bsize/2 + other.bsize/2) );
+
+boolean collisionCheck(Aliens other) {
+    return ( this.position.dist(other.position)
+             <= (this.size/2 + other.size/2) );
   }//collisionCheck
-*/
+
 
 
 
