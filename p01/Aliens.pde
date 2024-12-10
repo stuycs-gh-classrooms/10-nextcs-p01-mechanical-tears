@@ -39,11 +39,14 @@ void displayAliens() {
     }//for
   }//for
 } //displayAliens
-  
+ 
+/*
 boolean collisionCheck(Ball other) {
     return ( this.center.dist(other.center)
              <= (this.bsize/2 + other.bsize/2) );
   }//collisionCheck
+*/
+
 
 
   
