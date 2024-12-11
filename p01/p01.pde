@@ -3,7 +3,7 @@ int r; //# of rows
 int c; //# of cols
 int size;
 Shield B;
-
+PVector alienpos;
 
 void setup(){
   size(700,1000);
@@ -11,12 +11,18 @@ void setup(){
   r = 3;
   c = 5;
   size = 0; //0 for now
-  B = new Shield();
+  alienpos = new PVector(100,100);
+  B = new Shield(4);
+  a = new Aliens(3, 5, 20, alienpos);
+  B.makeShield();
+  a.makeAliens();
 }
 
 
 void draw(){
   B.display();
+  a.displayAliens();
+
 }
 
 void keyPressed(){

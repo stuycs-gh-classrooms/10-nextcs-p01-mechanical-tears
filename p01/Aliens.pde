@@ -8,7 +8,6 @@ class Aliens {
     size = s;
     aliens = new PVector[rows][cols];
     position = new PVector(pos.x, pos.y);
-    makeAliens();
     } //constructor
 
 void makeAliens() {
@@ -36,6 +35,8 @@ void displayAliens() {
       fill(c);
       circle(aliens[r][c].x , aliens[r][c].y , size);
           //Will be replaced with the random image stuff
+          //println(aliens[r][c].x);
+          println(aliens[r][c].y);
     }//for
   }//for
 } //displayAliens
