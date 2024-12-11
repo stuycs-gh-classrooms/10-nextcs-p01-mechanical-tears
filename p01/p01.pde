@@ -3,6 +3,7 @@ int r; //# of rows
 int c; //# of cols
 int size;
 Shield B;
+Player P;
 
 
 void setup(){
@@ -12,24 +13,27 @@ void setup(){
   c = 5;
   size = 0; //0 for now
   B = new Shield();
+  P = new Player();
 }
 
 
 void draw(){
+  background(0);
   B.display();
+  P.display();
 }
 
 void keyPressed(){
   if (keyCode == LEFT || key == 'a'){ // move left
-   // player.x -= ;
+    P.position.x -= 5 ;
   }
   if (keyCode == RIGHT || key == 'd'){ // move right
-   // player.x += ;
+    P.position.x += 5 ;
   }
     if (keyCode == UP || key == 'w'){ // move up
-   // player.y += ;
+    P.position.y -= 5 ;
   }
    if (keyCode == DOWN || key == 's'){ // move down
-   // player.y -= ;
+    P.position.y += 5 ;
   }
 }

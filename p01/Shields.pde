@@ -13,7 +13,7 @@ Shield() {
 void display(){
    for(int w = 0; w < s.length; w++ ) {
      fill(c);
-     circle(s[w].x, s[w].y, size);
+//     circle(s[w].x, s[w].y, size);
    }
 }//display
 
