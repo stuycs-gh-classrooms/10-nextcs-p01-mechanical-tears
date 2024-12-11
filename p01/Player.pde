@@ -2,6 +2,7 @@ class Player{
   int size;
   PVector position; // will be x,y coords of the player
   color c;
+  int playerLives = 3;
 
   Player(){
   position = new PVector(width/2, height - 20);
@@ -22,7 +23,13 @@ class Player{
      <= (this.size/2 + other.size/2) );
     }//collisionCheck()
     
-}  
-
   
+
+void playerHit(Player other){
+  if (this.collisionCheck(other) == true){
+      playerLives --; 
+
+}
+}
+}
  

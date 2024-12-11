@@ -21,6 +21,7 @@ void draw(){
   background(0);
   B.display();
   P.display();
+  score();
 }
 
 void keyPressed(){
@@ -36,4 +37,13 @@ void keyPressed(){
    if (keyCode == DOWN || key == 's'){ // move down
     P.position.y += 5 ;
   }
+}
+
+
+void score(){
+  fill(250);
+  textSize(20);
+  textAlign(TOP,RIGHT);
+  text(P.playerLives, width - 20, 20);
+
 }
