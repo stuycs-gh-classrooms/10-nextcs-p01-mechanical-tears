@@ -5,18 +5,18 @@ class Player{
 
   Player(){
   position = new PVector(width/2, height - 20);
-  color c = #2A4B5A;
+   c = #2A4B5A;
   }  
   
   // constructors
   
   void display(){
-    fill(c);
-    circle(position.x, position.y, 10);   
+    fill(c); //sets cp;pr
+    circle(position.x, position.y, 50);  //sets x,y to the x&y cor of PVector
   
 }
 
-    boolean collisionCheck(Player other)
+    boolean collisionCheck(Player other) // collision check for Player and every object in program
     {
   return ( this.position.dist(other.position)
      <= (this.size/2 + other.size/2) );
@@ -25,4 +25,4 @@ class Player{
 }  
 
   
-    
+ 

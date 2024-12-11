@@ -3,7 +3,12 @@ int r; //# of rows
 int c; //# of cols
 int size;
 Shield B;
+<<<<<<< HEAD
 PVector alienpos;
+=======
+Player P;
+
+>>>>>>> 99e34e71c0bf5a867fff03dae59d4db9d7cd7cfd
 
 void setup(){
   size(700,1000);
@@ -11,31 +16,41 @@ void setup(){
   r = 3;
   c = 5;
   size = 0; //0 for now
+<<<<<<< HEAD
   alienpos = new PVector(100,100);
   B = new Shield(4);
   a = new Aliens(3, 5, 20, alienpos);
   B.makeShield();
   a.makeAliens();
+=======
+  B = new Shield();
+  P = new Player();
+>>>>>>> 99e34e71c0bf5a867fff03dae59d4db9d7cd7cfd
 }
 
 
 void draw(){
+  background(0);
   B.display();
+<<<<<<< HEAD
   a.displayAliens();
 
+=======
+  P.display();
+>>>>>>> 99e34e71c0bf5a867fff03dae59d4db9d7cd7cfd
 }
 
 void keyPressed(){
   if (keyCode == LEFT || key == 'a'){ // move left
-   // player.x -= ;
+    P.position.x -= 5 ;
   }
   if (keyCode == RIGHT || key == 'd'){ // move right
-   // player.x += ;
+    P.position.x += 5 ;
   }
     if (keyCode == UP || key == 'w'){ // move up
-   // player.y += ;
+    P.position.y -= 5 ;
   }
    if (keyCode == DOWN || key == 's'){ // move down
-   // player.y -= ;
+    P.position.y += 5 ;
   }
 }
